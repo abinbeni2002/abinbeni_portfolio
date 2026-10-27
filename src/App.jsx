@@ -40,7 +40,7 @@ function App() {
   const [activeWorkIndex, setActiveWorkIndex] = useState(0);
   const closeMenu = () => setMenuOpen(false);
   const nameParts = profile.name.split(" ");
-  const brandName = nameParts.slice(-2).join(" ");
+  const brandName = nameParts.join(" ");
   const brandInitials = nameParts
     .slice(-2)
     .map((part) => part[0])
