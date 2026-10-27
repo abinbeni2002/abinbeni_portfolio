@@ -4,13 +4,13 @@ export const profile = {
   name: "N S Abin Beni",
   initials: "NSAB",
   role: "Java Backend Developer",
-  location: "India",
+  location: "Hyderabad, India",
   availability: "Open to backend engineering opportunities",
   intro:
     "I build and support backend systems, REST APIs, and cloud-connected applications. My experience spans application support, troubleshooting, Java/Spring Boot development, PostgreSQL, and AWS services.",
   github: "https://github.com/abinbeni2002",
   linkedin: "https://www.linkedin.com/in/n-s-abin-beni-2808571b9/",
-  email: "", // Add a public contact email if you want it shown.
+  email: "abinbeni2002@gmail.com", // Add a public contact email if you want it shown.
   resumeUrl: "", // Add a public PDF URL, or place your resume in /public and set e.g. "/resume.pdf".
 };
 
