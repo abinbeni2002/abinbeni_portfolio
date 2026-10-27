@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="113" y1="47" x2="1090" y2="673" gradientUnits="userSpaceOnUse"><stop stop-color="#39365f"/><stop offset=".48" stop-color="#242644"/><stop offset="1" stop-color="#12182d"/></linearGradient>
+    <linearGradient id="orb" x1="818" y1="114" x2="1028" y2="355" gradientUnits="userSpaceOnUse"><stop stop-color="#ddd2ff"/><stop offset=".45" stop-color="#a59bf4"/><stop offset="1" stop-color="#758fdd"/></linearGradient>
+    <linearGradient id="bubble" x1="292" y1="411" x2="744" y2="544" gradientUnits="userSpaceOnUse"><stop stop-color="#39395f"/><stop offset="1" stop-color="#2a304f"/></linearGradient>
+    <filter id="shadow" x="115" y="74" width="970" height="568" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="orbGlow" x="724" y="32" width="392" height="405" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="36"/></filter>
+  </defs>
+  <rect width="1200" height="700" rx="24" fill="url(#bg)"/>
+  <circle cx="920" cy="232" r="130" fill="#a99cff" fill-opacity=".42" filter="url(#orbGlow)"/>
+  <rect x="139" y="112" width="922" height="500" rx="20" fill="#090c19" fill-opacity=".56" filter="url(#shadow)"/>
+  <rect x="157" y="91" width="886" height="518" rx="18" fill="#111629" stroke="#d7d0ff" stroke-opacity=".23"/>
+  <path d="M175 91h850a18 18 0 0 1 18 18v52H157v-52a18 18 0 0 1 18-18Z" fill="#1d223d"/>
+  <circle cx="185" cy="119" r="5" fill="#b5aaff"/><circle cx="203" cy="119" r="5" fill="#7e87c0"/><circle cx="221" cy="119" r="5" fill="#737cae"/>
+  <circle cx="265" cy="119" r="14" fill="#a99cff" fill-opacity=".2"/><path d="M259 120c0-4 3-7 6-7s6 3 6 7c0 3-2 5-4 7l-2 2-2-2c-2-2-4-4-4-7Z" stroke="#d3ccff" stroke-width="1.4"/><text x="289" y="124" fill="#e2e0fa" font-family="Arial,sans-serif" font-size="15" font-weight="600">ClearMind</text>
+  <text x="179" y="193" fill="#aaaed0" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.6">YOUR PRIVATE SPACE</text>
+  <text x="179" y="231" fill="#f1efff" font-family="Arial,sans-serif" font-size="26" font-weight="700">A moment to reset</text>
+  <text x="179" y="258" fill="#a7abc8" font-family="Arial,sans-serif" font-size="13">Take it one thought at a time.</text>
+  <circle cx="921" cy="224" r="105" fill="url(#orb)" fill-opacity=".13" stroke="#c6bdff" stroke-opacity=".33"/>
+  <circle cx="921" cy="224" r="77" fill="url(#orb)" fill-opacity=".19" stroke="#d9d1ff" stroke-opacity=".42"/>
+  <circle cx="921" cy="224" r="49" fill="url(#orb)"/>
+  <path d="M900 224c7-13 15-13 22 0s15 13 22 0" stroke="#f1edff" stroke-opacity=".9" stroke-width="3" stroke-linecap="round"/>
+  <path d="M837 153c-20 15-33 40-35 67m238-42c12 20 17 44 14 67M845 299c20 22 47 35 76 37m72-27c-16 17-37 28-60 32" stroke="#b9b1ff" stroke-opacity=".5" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="179" y="313" width="504" height="74" rx="14" fill="#1b2037" stroke="#b6adff" stroke-opacity=".16"/>
+  <circle cx="211" cy="350" r="16" fill="#8993da"/><text x="205" y="355" fill="#fff" font-family="Arial,sans-serif" font-size="12" font-weight="700">Y</text>
+  <text x="241" y="343" fill="#c9c9e2" font-family="Arial,sans-serif" font-size="13" font-weight="600">You</text><text x="241" y="365" fill="#a5a9c5" font-family="Arial,sans-serif" font-size="13">My mind has been racing about work lately.</text>
+  <rect x="439" y="408" width="564" height="116" rx="15" fill="url(#bubble)" stroke="#bab1ff" stroke-opacity=".27"/>
+  <circle cx="474" cy="442" r="16" fill="#aaa0f1" fill-opacity=".22"/><path d="M468 443c0-4 3-7 6-7s6 3 6 7c0 2-2 4-4 6l-2 2-2-2c-2-2-4-4-4-6Z" stroke="#d9d2ff" stroke-width="1.2"/>
+  <text x="502" y="440" fill="#dedbfa" font-family="Arial,sans-serif" font-size="13" font-weight="600">ClearMind</text><text x="502" y="468" fill="#c3c4dc" font-family="Arial,sans-serif" font-size="13">That sounds like a lot to carry. Would it help to name</text><text x="502" y="490" fill="#c3c4dc" font-family="Arial,sans-serif" font-size="13">one part of work that feels most on your mind?</text>
+  <rect x="179" y="543" width="824" height="42" rx="12" fill="#171c30" stroke="#c0b7ff" stroke-opacity=".25"/>
+  <text x="201" y="570" fill="#898eae" font-family="Arial,sans-serif" font-size="12">Share what is on your mind...</text>
+  <circle cx="973" cy="564" r="14" fill="#aaa0f1"/><path d="m968 564 10 0m-4-4 4 4-4 4" stroke="#16182a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="179" y="286" width="104" height="3" rx="1.5" fill="#a99cff" fill-opacity=".75"/>
+</svg>

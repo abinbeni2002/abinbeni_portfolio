@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="45" x2="1115" y2="676" gradientUnits="userSpaceOnUse"><stop stop-color="#34365f"/><stop offset=".52" stop-color="#1d2240"/><stop offset="1" stop-color="#12172d"/></linearGradient>
+    <linearGradient id="portrait" x1="226" y1="244" x2="449" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#d8c4ff"/><stop offset="1" stop-color="#8d9ef2"/></linearGradient>
+    <linearGradient id="accent" x1="794" y1="180" x2="1072" y2="537" gradientUnits="userSpaceOnUse"><stop stop-color="#bdb3ff"/><stop offset="1" stop-color="#7794e8"/></linearGradient>
+    <filter id="shadow" x="94" y="78" width="1012" height="560" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+    <filter id="glow" x="741" y="106" width="349" height="414" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="25"/></filter>
+  </defs>
+  <rect width="1200" height="700" rx="24" fill="url(#bg)"/>
+  <circle cx="915" cy="309" r="145" fill="#8984e9" fill-opacity=".32" filter="url(#glow)"/>
+  <rect x="110" y="106" width="980" height="500" rx="22" fill="#070a18" fill-opacity=".48" filter="url(#shadow)"/>
+  <rect x="138" y="91" width="924" height="518" rx="18" fill="#11162a" stroke="#d5d0ff" stroke-opacity=".24"/>
+  <path d="M156 91h888a18 18 0 0 1 18 18v52H138v-52a18 18 0 0 1 18-18Z" fill="#1c2240"/>
+  <circle cx="166" cy="119" r="5" fill="#a99cff"/><circle cx="184" cy="119" r="5" fill="#7f8bd0"/><circle cx="202" cy="119" r="5" fill="#7782b9"/>
+  <text x="235" y="124" fill="#d9d8f1" font-family="Arial,sans-serif" font-size="15" font-weight="600">FaceNest</text>
+  <rect x="156" y="179" width="200" height="400" rx="12" fill="#171d35"/>
+  <rect x="177" y="204" width="156" height="34" rx="8" fill="#a99cff" fill-opacity=".17"/>
+  <circle cx="196" cy="221" r="6" fill="#c6beff"/><rect x="211" y="216" width="82" height="9" rx="4.5" fill="#d7d4ff" fill-opacity=".9"/>
+  <rect x="181" y="266" width="91" height="8" rx="4" fill="#9da1c1" fill-opacity=".55"/>
+  <rect x="181" y="300" width="119" height="8" rx="4" fill="#9da1c1" fill-opacity=".38"/>
+  <rect x="181" y="334" width="104" height="8" rx="4" fill="#9da1c1" fill-opacity=".38"/>
+  <rect x="181" y="368" width="128" height="8" rx="4" fill="#9da1c1" fill-opacity=".38"/>
+  <rect x="181" y="402" width="85" height="8" rx="4" fill="#9da1c1" fill-opacity=".38"/>
+  <rect x="181" y="526" width="128" height="31" rx="8" fill="#252a4b"/><path d="m198 542 5 5 10-11" stroke="#bdb5ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="221" y="539" width="66" height="6" rx="3" fill="#b9bbd5" fill-opacity=".7"/>
+  <text x="395" y="210" fill="#aaaed0" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">PROFILE SETTINGS</text>
+  <text x="395" y="250" fill="#f1efff" font-family="Arial,sans-serif" font-size="27" font-weight="700">Your profile</text>
+  <text x="395" y="279" fill="#a7abc8" font-family="Arial,sans-serif" font-size="14">A little more you, all in one place.</text>
+  <circle cx="468" cy="389" r="82" fill="#222849" stroke="#aaa0ff" stroke-opacity=".65" stroke-width="2"/>
+  <circle cx="468" cy="359" r="30" fill="url(#portrait)"/>
+  <path d="M410 447c8-39 30-58 58-58s50 19 58 58" fill="url(#portrait)"/>
+  <path d="M438 345c3-29 17-44 37-44 22 0 36 17 36 43-12-10-25-15-39-15-12 0-23 5-34 16Z" fill="#352b54"/>
+  <circle cx="526" cy="444" r="18" fill="url(#accent)"/><path d="M526 435v18m-9-9h18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <text x="395" y="497" fill="#e9e7ff" font-family="Arial,sans-serif" font-size="17" font-weight="600">N S Abin Beni</text>
+  <text x="395" y="520" fill="#9ca1c2" font-family="Arial,sans-serif" font-size="12">Backend developer</text>
+  <rect x="711" y="190" width="304" height="106" rx="12" fill="#1b2140" stroke="#a99cff" stroke-opacity=".32"/>
+  <text x="734" y="220" fill="#9da2c5" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.5">PROFILE COMPLETION</text>
+  <text x="734" y="260" fill="#f0efff" font-family="Arial,sans-serif" font-size="25" font-weight="700">82%</text>
+  <rect x="808" y="249" width="178" height="7" rx="3.5" fill="#333958"/><rect x="808" y="249" width="146" height="7" rx="3.5" fill="url(#accent)"/>
+  <text x="734" y="278" fill="#969bbc" font-family="Arial,sans-serif" font-size="11">Two details left to complete</text>
+  <rect x="711" y="318" width="304" height="110" rx="12" fill="#1b2140" stroke="#bdb3ff" stroke-opacity=".2"/>
+  <circle cx="747" cy="355" r="13" fill="#8ac9c1" fill-opacity=".18"/><path d="m741 355 4 4 8-9" stroke="#a7e4d7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="774" y="352" fill="#ecebff" font-family="Arial,sans-serif" font-size="14" font-weight="600">Profile photo</text><text x="774" y="374" fill="#9da1c0" font-family="Arial,sans-serif" font-size="12">Uploaded and looking good</text>
+  <rect x="711" y="450" width="304" height="102" rx="12" fill="#1b2140" stroke="#bdb3ff" stroke-opacity=".2"/>
+  <circle cx="747" cy="487" r="13" fill="#b59dff" fill-opacity=".18"/><path d="M742 487h10m-5-5v10" stroke="#d0c3ff" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="774" y="484" fill="#ecebff" font-family="Arial,sans-serif" font-size="14" font-weight="600">Add a headline</text><text x="774" y="506" fill="#9da1c0" font-family="Arial,sans-serif" font-size="12">Make your profile stand out</text>
+</svg>
